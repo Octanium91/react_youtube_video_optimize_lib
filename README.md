@@ -17,4 +17,4 @@ props:<br />
 [Demo website](https://octanium91.github.io/p/optimization-video/react-demo/)<br />
 Press `Optimized` for loading optimized version, press `No optimized` for loading not optimized version.
 ### `START DEMO`
-For start demo project, clone this repository and start (do `yarn install` and `yarn start` or `npm install` and `npm start`)<br />
+For start demo project, clone this repository and start (do `yarn install` and `yarn start` or `npm install` and `npm start` (if you use npm))<br />
