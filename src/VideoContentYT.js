@@ -14,7 +14,7 @@
 //      title - string - img title
 //      className - string - custom class name
 //
-//  example: <VideoContentYT src="LXb3EKWsInQ" params={{autoPlay: true, thumbnailQuality: "maxres"}} />
+//  example: <VideoContentYT src="LXb3EKWsInQ" params={{autoPlay: true}} />
 //
 
 import React, { Component } from 'react';
