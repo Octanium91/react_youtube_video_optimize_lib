@@ -17,10 +17,10 @@ export default class App extends Component {
               <p>YouTube video optimize ReactJS lib demo</p>
               <div style={{display: "flex", alignItems: "center", justifyContent: "center", maxWidth: "100%"}}>
                   <a href="https://octanium91.github.io/p/optimization-video/react-demo/" rel="noopener noreferrer" aria-label="link to optimized version" style={{background: "#191d25", color: "#61dafb", textDecoration: "none", height: "auto", borderRadius: "5px", width: "200px", margin: "5px", padding: "5px"}}>Optimized</a>
-                  <a href="https://octanium91.github.io/p/optimization-video/react-demo-slow/" rel="noopener noreferrer" aria-label="link to not optimized version" style={{background: "#67c3da", color: "#191d25", textDecoration: "none", height: "auto", borderRadius: "5px", width: "200px", margin: "5px", padding: "5px"}}>No optimized</a>
+                  <a href="https://octanium91.github.io/p/optimization-video/react-demo-slow/" rel="noopener noreferrer" aria-label="link to not optimized version" style={{background: "#67c3da", color: "#191d25",textDecoration: "none", height: "auto", borderRadius: "5px", width: "200px", margin: "5px", padding: "5px"}}>No optimized</a>
               </div>
               <div style={{display: "flex", alignItems: "center", justifyContent: "center", maxWidth: "100%"}}>
-                <a href="https://github.com/Octanium91/react_youtube_video_optimize_lib/" rel="noopener noreferrer" aria-label="link to GitHub project page" style={{background: "#251919", color: "#61dafb", textDecoration: "none", height: "auto", borderRadius: "5px", width: "420px", margin: "5px", padding: "5px", maxWidth: "100%"}}>Source code (GitHub)</a>
+                <a href="https://github.com/Octanium91/react_youtube_video_optimize_lib/" rel="noopener noreferrer" aria-label="link to GitHub project page" style={{background: "#2e5966", color: "#c7d7fc", textDecoration: "none", height: "auto", borderRadius: "5px", width: "420px", margin: "5px", padding: "5px", maxWidth: "100%"}}>Source code (GitHub)</a>
               </div>
           </div>
 

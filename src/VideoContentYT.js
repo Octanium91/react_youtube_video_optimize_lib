@@ -1,7 +1,7 @@
 //
 // *
 // Developer: Octanium (octanium91@gmail.com)
-// version: 1.0
+// version: 1.1
 // *
 //
 // props:
@@ -128,7 +128,7 @@ export default class VideoContent extends Component {
                         <img className={this.state.className+"__media"} key={"vc_"+this.state.videoId+"__media"} title={this.state.title} style={{position:"absolute",top:"0",left:"0",width:"100%",height:"100%",border:"none"}} src={"https://i.ytimg.com/vi/"+this.state.videoId+"/"+this.state.thumbnailQuality+".jpg"} alt={this.state.title}/>
                     </picture>
                     <button className={this.state.className+"__button"} key={"vc_"+this.state.videoId+"__button"} style={{position:"absolute",top:"50%",left:"50%",zIndex:"1",padding:"0",width:"68px",height:"48px",border:"none",backgroundColor:"transparent",transform:"translate(-50%, -50%)",cursor:"pointer"}} type="button" aria-label="Play video" onMouseOver={(e) => (this.setState({playBtnRed: true}))} onMouseOut={(e) => (this.setState({playBtnRed: false}))} onClick={() => {this.setState({showContent: true})}} >
-                        <svg width="68" height="48" viewBox="0 0 68 48"><path className={this.state.className+"__button-shape"} key={"vc_"+this.state.videoId+"__button-shape"} style={{fill: this.state.playBtnRed ? "#ff0000" : "#212121",fillOpacity: this.state.playBtnRed ? "0.8" : "1"}} d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path className={this.state.className+"__button-icon"} key={"vc_"+this.state.videoId+"__button-icon"} style={{fill: "#ffffff"}} d="M 45,24 27,14 27,34"></path></svg>
+                        <svg width="68" height="48" viewBox="0 0 68 48"><path className={this.state.className+"__button-shape"} key={"vc_"+this.state.videoId+"__button-shape"} style={{fill: this.state.playBtnRed ? "#ff0000" : "rgba(33,33,33,0.8)",fillOpacity: this.state.playBtnRed ? "0.8" : "1"}} d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path className={this.state.className+"__button-icon"} key={"vc_"+this.state.videoId+"__button-icon"} style={{fill: "#ffffff"}} d="M 45,24 27,14 27,34"></path></svg>
                     </button>
                 </div>
             );
