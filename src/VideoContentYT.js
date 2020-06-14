@@ -1,7 +1,7 @@
 //
 // *
 // Developer: Octanium (octanium91@gmail.com)
-// version: 1.1
+// version: 1.2
 // *
 //
 // props:
@@ -28,9 +28,6 @@ export default class VideoContent extends Component {
         title: "",
         className: "",
         videoId: "",
-        styleImg: {},
-        styleIframe: {},
-        iframeSize: {},
         thumbnailQuality: "",
         showContent: false
     };
