@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import VideoContentYT from './VideoContentYT';
+import VideoContentYT from 'react-video-content-youtube';
 
 export default class App extends Component {
 

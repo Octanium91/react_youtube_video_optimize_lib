@@ -1,7 +1,7 @@
 # react_youtube_video_optimize_lib
 Youtube video optimize on page in reactjs<br />
 
-ReactJS component [VideoContentYT.js](https://github.com/Octanium91/react_youtube_video_optimize_lib/blob/master/src/VideoContentYT.js) can optimize youtube video content on page<br />
+ReactJS component [VideoContentYT (npm package)](https://www.npmjs.com/package/react-video-content-youtube) can optimize youtube video content on page<br />
 ### `USE`
 example: `<VideoContentYT src="LXb3EKWsInQ" params={{autoPlay: true}} />`<br />
 <br />
